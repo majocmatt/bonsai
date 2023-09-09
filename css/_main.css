@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {    
+   height: 100%; 
+}
+img{
+	border: 0;
+}
+body{
+	background: #F4EAD1 url(../image_main/header-bg.jpg) repeat-x;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #555;
+	line-height: 16px;
+}
+a{
+	color: #7D130C;
+}
+a:hover{
+	color: #A7312A;
+}
+p{
+	margin: 14px 0 0  0;
+}
+ul{
+	list-style: none;
+}
+#container{
+	width: 900px;
+	margin: 0 auto;
+	min-height: 100%;
+	margin-bottom: -140px;
+	position: relative;
+}
+.clearAll{
+	clear: both;
+}
+#header{
+	height: 134px;
+}
+#logo{
+	float: left;
+	margin: 42px 0 0 0;
+}
+#tree{
+	float: right;
+	/*margin: 0 140px 0 0;*/
+}
+#nav{
+	float: left;
+	width: 400px;
+	margin: 14px 0 0 0;
+}
+#nav li{
+	display: inline;
+}
+#nav li a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 20px 0 0;
+}
+#nav li a:hover{
+	color: #eee;
+}
+#leftColumn{
+	float: left;
+	width: 425px;
+}
+#rightColumn{
+	float: right;
+	width: 406px;
+	margin: 40px 0 0 0;
+}
+#leftColumnSub{
+	float: left;
+	width: 200px;
+}
+#rightColumnSub{
+	float: right;
+	width: 630px;
+}
+#copy{
+	margin: 25px 0 0 0;
+	padding: 0 0 100px 0;
+}
+#copy h1{
+	font-family: Georgia,"Times New Roman",Serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #926700;
+	padding: 0 0 5px 0;
+	margin: 40px 0 0 0;
+	border-bottom: 1px solid #D9D3C5;
+}
+#copy span{
+	font-style: italic;
+}
+#copy h2{
+	font-size: 14px;
+}
+#menuCats,#menuCatsHome{
+	margin: 14px 0 0 0;
+}
+#menuCats  li{
+	clear: both;
+}
+#menuCatsHome li{
+	float: left;
+	width: 210px;
+	display: block;
+}
+#menuCats  li a{
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	padding: 10px 0;
+}
+#menuCatsHome li a{
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+	padding: 10px 0;
+}
+#menuCats img,#menuCatsHome img{
+	float: left;
+	width: 35px;
+	margin: 0 8px 0 0;
+}
+#picTop{
+	background: #806B3C url(../image_main/pic-top.png) no-repeat;
+	height: 11px;
+}
+#picBtm{
+	background: #806B3C url(../image_main/pic-btm.png) no-repeat;
+	height: 11px;
+}
+#picMid{
+	background: #806B3C;
+	padding: 0 10px;
+	text-align: center;
+}
+#fadeshow1 img{
+	border: 1px solid #EECF8A;
+}
+.menuBtn{
+	text-decoration: none;
+	background: url(../image_main/menu-btn.png) no-repeat;
+	display: block;
+	height: 30px;
+	margin: 10px 0 0 0;
+}
+.menuBtn:hover{
+	background-position: 0 -30px;
+}
+hr{
+	display: none;
+}
+.hr{
+	clear:both;
+	border-bottom: 1px dashed #ccc;
+	height: 1px;
+	background: none;
+	margin: 15px 0;
+}
+.icon{
+	float: left;
+	margin: 10px 15px 0 0;
+}
+.icon2{
+	float: left;
+	margin: 16px 15px 0 0;
+}
+.clearfooter {
+	height: 140px;
+	clear: both;
+}
+#footer{
+	background: #fff url(../image_main/footer-bg.jpg) repeat-x;
+	height: 140px;
+	position: relative;
+}
+#footerInterior{
+	width: 900px;
+	margin: 0 auto;
+}
+#footerInterior img{
+	float: right;
+}
+#footerInterior p{
+	float: left;
+	color: #fff;
+	margin: 55px 0 0 0;
+}
+#footerInterior a{
+	color: #fff;
+}
+
+
+
